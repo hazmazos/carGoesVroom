@@ -5,8 +5,8 @@ int MR1 ;
 int MR2 ;
 
 // IR Sensors pins
-int L = ;
-int R = ;
+int L ;
+int R  ;
 
 int lSensorValue;
 int rSensorValue;
@@ -19,8 +19,8 @@ void setup() {
   pinMode(MR1, OUTPUT);
   pinMode(MR2, OUTPUT);
 
-  pinMode(L, INPUT)
-  pinMode(R, INPUT)
+  pinMode(L, INPUT);
+  pinMode(R, INPUT);
 }
 
 void loop() {
@@ -29,22 +29,22 @@ void loop() {
   rSensorValue = digitalRead(R);
 
   if(lSensorValue==LOW && rSensorValue==LOW){
-    forward()
+    forward();
   }
   else if(lSensorValue==LOW && rSensorValue==HIGH){
-    turnLeft()
+    turnLeft();
     last = -1;
   }
   else if(lSensorValue==HIGH && rSensorValue==LOW){
-    turnRight()
+    turnRight();
     last=1;
   }
   else{
     if(last<=0){
-      turnLeft()
+      turnLeft();
     }
     else{
-      turnRight()
+      turnRight();
     }
   }
   
