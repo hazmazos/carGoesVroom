@@ -1,5 +1,7 @@
 # carGoesVroom
 
+![Robot in action](images/car.jpg)
+
 In this project, we built and programmed a mobile robot using an Arduino and a commercial kit to explore how robots navigate their environment. The goal was to get hands-on experience with robot assembly, programming, and testing navigation strategies.
 
 ## What We Did
