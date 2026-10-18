@@ -1,3 +1,5 @@
+
+
 # carGoesVroom
 
 ![Robot in action](car.jpg)
@@ -6,3 +8,5 @@ In this project, we built and programmed a mobile robot using an Arduino and a c
 
 This project was a great way to see the theory meet the real world. It taught us that programming a robot isn’t just about code—it’s also about understanding sensors, mechanical behavior, and how algorithms perform in practice. Even small limitations, like sensor accuracy, can have a big impact on navigation.
 
+
+https://github.com/user-attachments/assets/ee53b301-62e4-45ba-be04-a8f9ce1c077f
